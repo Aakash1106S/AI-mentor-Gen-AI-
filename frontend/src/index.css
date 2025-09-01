@@ -1,0 +1,22 @@
+/*
+  The following @tailwind directives require Tailwind CSS and PostCSS processing.
+  Make sure your build tool is configured to use Tailwind CSS.
+*/
+/* 
+  @tailwind directives require Tailwind CSS and PostCSS processing.
+  If you see an error here, make sure your build tool (like Vite, Webpack, or CRA) is configured to use Tailwind CSS.
+  If you are not using Tailwind, remove these lines.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+/* Optional - custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+}
